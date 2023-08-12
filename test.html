@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conocimiento</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script>
+var respuesta_correcta = "XX";
+var pregunta = "¿A qué siglo se remonta la historia de la Inteligencia Artificial? (Escribe el número en formato de siglo, por ejemplo, X para el siglo 10)";
+
+var respuesta_usuario = prompt(pregunta);
+
+
+if (respuesta_usuario.toUpperCase() === respuesta_correcta) {
+    document.write("Correcto");
+} else {
+   document.write("Incorrecto");
+}
+
+document.write("<br>");
+
+var respuesta_correcta = false;
+var pregunta = "Es verdad que la Inteligencia Artificial nos sacará el empleo a todos? (Verdadero o Falso)";
+
+var respuesta_usuario = prompt(pregunta);
+
+if (respuesta_usuario.toLowerCase() === "falso" && respuesta_correcta === false) {
+   document.write("Correcto");
+} else {
+    document.write("Incorrecto");
+}
+
+
+    
+
+
+ </script>
+ <br>
+ <br>
+ <br>
+ <a href="index.html">volver</a>
+    
+</body>
+</html>
